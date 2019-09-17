@@ -8,6 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+//nolint: gochecknoglobals
 var (
 	APIKey     = os.Getenv("STREAM_API_KEY")
 	APISecret  = os.Getenv("STREAM_API_SECRET")
